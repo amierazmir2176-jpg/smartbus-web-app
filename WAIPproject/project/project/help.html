@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help Center - SmartBus Voyager</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="components/navbar.js"></script>
+</head>
+<body class="bg-gray-50">
+    <custom-navbar></custom-navbar>
+
+    <main class="container mx-auto px-4 py-12">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-3xl font-bold text-gray-800 mb-8">Help Center</h1>
+            
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-8">
+                <div class="p-6 border-b border-gray-200">
+                    <h2 class="text-xl font-semibold text-gray-800">Frequently Asked Questions</h2>
+                </div>
+                
+                <div class="p-6 space-y-6">
+                    <div class="border-b border-gray-200 pb-4">
+                        <h3 class="text-lg font-medium text-gray-800 mb-2">How do I book a ticket?</h3>
+                        <p class="text-gray-600">You can book tickets through our website or mobile app by selecting your departure and destination cities, travel date, and number of passengers.</p>
+                    </div>
+                    
+                    <div class="border-b border-gray-200 pb-4">
+                        <h3 class="text-lg font-medium text-gray-800 mb-2">Can I cancel my ticket?</h3>
+                        <p class="text-gray-600">Yes, tickets can be cancelled up to 24 hours before departure. Cancellation fees may apply depending on when you cancel.</p>
+                    </div>
+                    
+                    <div class="border-b border-gray-200 pb-4">
+                        <h3 class="text-lg font-medium text-gray-800 mb-2">How do I change my booking?</h3>
+                        <p class="text-gray-600">You can modify your booking through the 'My Tickets' section after logging into your account. Changes are subject to availability.</p>
+                    </div>
+                    
+                    <div class="pb-4">
+                        <h3 class="text-lg font-medium text-gray-800 mb-2">What payment methods do you accept?</h3>
+                        <p class="text-gray-600">We accept all major credit/debit cards, PayPal, and select mobile payment options.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                <div class="p-6 border-b border-gray-200">
+                    <h2 class="text-xl font-semibold text-gray-800">Contact Support</h2>
+                </div>
+                
+                <div class="p-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <div>
+                            <h3 class="text-lg font-medium text-gray-800 mb-4">Customer Service</h3>
+                            <p class="text-gray-600 mb-4"><i data-feather="phone" class="inline mr-2"></i> <a href="tel:+18005551234" class="hover:text-blue-600">+1 (800) 555-1234</a></p>
+                            <p class="text-gray-600"><i data-feather="mail" class="inline mr-2"></i> <a href="mailto:support@smartbus.com" class="hover:text-blue-600">support@smartbus.com</a></p>
+</div>
+                        
+                        <div>
+                            <h3 class="text-lg font-medium text-gray-800 mb-4">Business Hours</h3>
+                            <p class="text-gray-600">Monday - Friday: 8:00 AM - 8:00 PM</p>
+                            <p class="text-gray-600">Saturday - Sunday: 9:00 AM - 5:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        feather.replace();
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

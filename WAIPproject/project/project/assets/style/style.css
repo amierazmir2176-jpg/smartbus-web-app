@@ -1,0 +1,136 @@
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px;
+}
+
+/* WHY CHOOSE US SECTION */
+#ChooseUs {
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 40px 20px;
+  border-radius: 12px;
+  width: 80%;
+  margin: 40px auto;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+#ChooseUs ul {
+  list-style: none;
+  padding: 0;
+}
+
+#ChooseUs li {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+h2, h3 {
+  margin-bottom: 20px;
+}
+
+/* LOGIN / SIGNUP FORMS */
+.auth-container {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  width: 350px;
+  margin: 20px auto;
+}
+
+.auth-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.auth-container button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.auth-container button:hover {
+  background-color: #0056b3;
+}
+
+.auth-container .error {
+  color: red;
+  font-size: 14px;
+  margin: 5px 0 0;
+}
+
+.auth-container .switch {
+  text-align: center;
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+.auth-container .switch a {
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.auth-container .switch a:hover {
+  text-decoration: underline;
+}
+
+#from-list, #to-list {
+    background-color: white;
+    max-height: 150px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#from-list li, #to-list li {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+#from-list li:hover, #to-list li:hover {
+    background-color: #f0f0f0;
+}
+
+#Admin {
+  background-color: paleturquoise;
+}
+
+.login-btn {
+  border: 2px solid black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none; /* Removes underline */
+  display: inline-block;
+}
+
+#Help {
+  background-color: pink;
+}
+
+#Login {
+  background-color: lightgoldenrodyellow;
+}
+
+#SignUp {
+  background-color: lightcyan;
+}
+
+.card img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }

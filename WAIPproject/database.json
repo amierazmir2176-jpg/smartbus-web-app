@@ -1,0 +1,172 @@
+{
+  "users": [
+    {
+      "user_id": 1,
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "john@email.com",
+      "password": "password123",
+      "phone_no": "0123456789",
+      "DOB": "1990-05-15",
+      "created_at": "2025-11-16T05:44:01.512Z"
+    },
+    {
+      "user_id": 1763277517473,
+      "first_name": "Test",
+      "last_name": "User",
+      "email": "test@email.com",
+      "password": "1234",
+      "phone_no": "",
+      "DOB": "2000-01-01",
+      "created_at": "2025-11-16T07:18:37.473Z"
+    },
+    {
+      "user_id": 1763277777601,
+      "first_name": "mia",
+      "last_name": "mia",
+      "email": "mia@gmail.com",
+      "password": "1456",
+      "phone_no": "",
+      "DOB": "2025-11-03",
+      "created_at": "2025-11-16T07:22:57.601Z"
+    },
+    {
+      "user_id": 1763285156951,
+      "first_name": "amiera",
+      "last_name": "zamir",
+      "email": "amierazamir@yahoo.com",
+      "password": "1256",
+      "phone_no": "",
+      "DOB": "2025-10-07",
+      "created_at": "2025-11-16T09:25:56.951Z"
+    },
+    {
+      "user_id": 1763295548647,
+      "first_name": "amiera",
+      "last_name": "syuhada",
+      "email": "amiera0411@gmail.com",
+      "password": "0411",
+      "phone_no": "",
+      "DOB": "2025-11-04",
+      "created_at": "2025-11-16T12:19:08.647Z"
+    }
+  ],
+  "routes": [
+    {
+      "route_id": 1,
+      "route_name": "KL to Penang Express",
+      "origin": "Kuala Lumpur",
+      "destination": "Penang",
+      "duration": "04:30:00",
+      "created_at": "2025-11-16T05:44:01.615Z"
+    },
+    {
+      "route_id": 2,
+      "route_name": "JB to Melaka Coastal",
+      "origin": "Johor Bahru",
+      "destination": "Melaka",
+      "duration": "03:00:00",
+      "created_at": "2025-11-16T05:44:01.615Z"
+    }
+  ],
+  "schedules": [
+    {
+      "schedule_id": 1,
+      "route_id": 1,
+      "driver_id": 1,
+      "departure_time": "2024-12-01 08:00:00",
+      "arrival_time": "2024-12-01 12:30:00",
+      "available_seats": 50,
+      "created_at": "2025-11-16T05:44:01.615Z"
+    },
+    {
+      "schedule_id": 1763287398724,
+      "route_name": "Ipoh to Kuala Besut",
+      "route_description": "IPH TO KB",
+      "time_slot": "12:00",
+      "max_seats": 50,
+      "price": 25,
+      "available_seats": 50,
+      "created_at": "2025-11-16T10:03:18.724Z"
+    },
+    {
+      "schedule_id": 1763288723972,
+      "route_name": "Kuala Lumpur to Kuala Besut",
+      "route_description": "KL to KB",
+      "time_slot": "13:00",
+      "max_seats": 50,
+      "price": 30,
+      "available_seats": 50,
+      "created_at": "2025-11-16T10:25:23.972Z"
+    },
+    {
+      "schedule_id": 1763295689187,
+      "route_name": "Ipoh to Penang",
+      "route_description": "Ipoh to Penang",
+      "time_slot": "14:00",
+      "max_seats": 40,
+      "price": 27,
+      "available_seats": 40,
+      "created_at": "2025-11-16T12:21:29.187Z"
+    }
+  ],
+  "bookings": [
+    {
+      "booking_id": 1,
+      "user_id": 1,
+      "schedule_id": 1,
+      "booking_time": "2024-11-25 10:00:00",
+      "seat_num": 2,
+      "ticket_price": 45,
+      "status": "confirmed",
+      "created_at": "2025-11-16T05:44:01.615Z"
+    },
+    {
+      "booking_id": 1763286550822,
+      "user_id": 1,
+      "schedule_id": 1,
+      "seat_num": 1,
+      "ticket_price": 35,
+      "status": "confirmed",
+      "created_at": "2025-11-16T09:49:10.822Z"
+    },
+    {
+      "booking_id": 1763286818083,
+      "user_id": 1,
+      "schedule_id": 1,
+      "seat_num": 1,
+      "ticket_price": 35,
+      "status": "confirmed",
+      "created_at": "2025-11-16T09:53:38.083Z"
+    },
+    {
+      "booking_id": 1763289052572,
+      "user_id": 1,
+      "schedule_id": 1,
+      "seat_num": 1,
+      "ticket_price": 35,
+      "status": "confirmed",
+      "created_at": "2025-11-16T10:30:52.572Z"
+    },
+    {
+      "booking_id": 1763295620265,
+      "user_id": 1,
+      "schedule_id": 1,
+      "seat_num": 1,
+      "ticket_price": 35,
+      "status": "confirmed",
+      "created_at": "2025-11-16T12:20:20.265Z"
+    }
+  ],
+  "drivers": [
+    {
+      "driver_id": 1,
+      "driver_name": "Test Driver",
+      "phone": "0123456789",
+      "license_no": "TEST123",
+      "vehicle_plate": "TEST001",
+      "status": "active",
+      "created_at": "2025-11-16T05:44:01.615Z"
+    }
+  ]
+}
